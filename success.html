@@ -1,12 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>It's Ready To Post</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="dist/css/style.css">
+	<title>It's Ready To Post</title>
 </head>
+<style>
+	body {
+		background: #F6F8FA;
+		display: block;
+	}
+.title{
+  text-align: center;
+}
+	.card {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		width: 33vw;
+		height: 45vh;
+		background: white;
+		box-shadow: 0 16px 48px #E2E8ED;
+	}
+
+	.container {
+		display: flex;
+		justify-content: center;
+		align-content: center;
+	}
+</style>
+
 <body>
-Success! We will be in contact shortly!
+	<div class="container">
+		<div class="card">
+			<h1 class="title">
+				Your Payment Was Successful!
+			</h1>
+			<p class="hero-cta is-revealing"><button style="background-color:#fff;color:#FFF;padding:8px 12px;border:0;border-radius:4px;font-size:1em" id="error" role="link">
+					<a class="button button-primary button-shadow" href="surprise.jpg">Click Here For A Surprise</a>
+				</button></p>
+		</div>
+	</div>
 </body>
+
 </html>
